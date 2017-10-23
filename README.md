@@ -8,8 +8,8 @@ Titanium Alloy Widget - Add your own custom Rating or Feedback Component (or bot
 The purpose of this widget is to provide a simple widget to use for prompting the user for a 1-5 Star Rating, or for feedback, or even both!
 
 
-![Alt text](rate_feedback.MOV)
-![Alt text](both_noCancel.MOV)
+![Rating.  Feedback](rate_feedback.gif)
+![Both.   Rate w/ No Cancel](both_NOCancel.gif)
 
 
 ### Requirement
