@@ -139,7 +139,7 @@ onlyRate.getView().open();
   
 #
   
-> **NOTE**: This was designed for Enterprise Apps (where Apple's default Rating system and TestFlight are not available).  I seriously doubt Apple would allow this through the store.  If you are waiting to use the native SKStoreReviewController, I suggest you use the one from Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn)) here-> https://github.com/hansemannn/titanium-review-dialog
+> **NOTE**: This was designed for Enterprise Apps (where Apple's default Rating system and TestFlight are not available).  I seriously doubt Apple would allow this through the store.  If you are wanting to use the native SKStoreReviewController, I suggest you use the one from Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn)) here-> https://github.com/hansemannn/titanium-review-dialog
   
 #
   
@@ -153,4 +153,4 @@ Apache 2.0
   
 #
   
-Code contributions are greatly appreciated, please submit a new [pull request](https://github.com/hyperloop-modules/ti.hockeyapp/pull/new/master)!
+Code contributions are greatly appreciated, please submit a new [pull request](https://github.com/hyperloop-modules/ti.appraise/pull/new/master)!
