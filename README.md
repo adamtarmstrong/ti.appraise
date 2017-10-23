@@ -145,7 +145,6 @@ onlyRate.getView().open();
   
 ### Author
 * Adam Armstrong ([@adamtarmstrong](https://twitter.com/adamtarmstrong))
-* Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn))
   
 #
   
