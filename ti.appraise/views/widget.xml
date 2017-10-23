@@ -1,0 +1,40 @@
+<Alloy><Window id="win" onPostlayout="show">
+	<View id="rateView" backgroundColor="#00000000" opacity="0" layout="vertical" zIndex="999">
+		<View id="rateDialog">
+				<ImageView id="appicon" class="appiconVisible" autoStyle="true" />
+				<Label id="title" />
+				<Label id="subtitle" class="subtitleRating" />
+				<View id="starView" class="starViewVisible" autoStyle="true">
+						<!--HR Line-->
+						<View width="Ti.UI.FILL" height="1" backgroundColor="#c7c7c7" />
+						<View layout="horizontal" width="Ti.UI.FILL" height="44">
+								<Label text="" width="15%" height="44" />
+								<Label id="starOne" class="unStar" autoStyle="true" onClick="clickedOneStar" />
+								<Label id="starTwo" class="unStar" autoStyle="true" onClick="clickedTwoStars" />
+								<Label id="starThree" class="unStar" autoStyle="true" onClick="clickedThreeStars" />
+								<Label id="starFour" class="unStar" autoStyle="true" onClick="clickedFourStars" />
+								<Label id="starFive" class="unStar" autoStyle="true" onClick="clickedFiveStars" />
+								<Label text="" width="Ti.UI.FILL" height="44" />
+						</View>
+				</View>
+				
+				<View id="feedbackView" class="feedbackViewVisible" autoStyle="true">
+					<!--HR Line-->
+					<View width="Ti.UI.FILL" height="1" backgroundColor="#c7c7c7" autoStyle="true" />
+					<View width="Ti.UI.FILL" height="81" layout="composite" autoStyle="true">
+						<Label id="feedbackHelpText" text="What can we do to improve our rating?" class="feedbackHelpTextVisible" autoStyle="true" />
+						<TextArea id="feedbackText" color="#2d2d2d" width="96%" left="3%" backgroundColor="transparent" height="73" top="3" bottom="5" autoStyle="true" returnKeyType="Titanium.UI.RETURNKEY_DONE" softKeyboardOnFocus="Titanium.UI.Android.SOFT_KEYBOARD_SHOW_ON_FOCUS"  />
+					</View>
+				</View>
+				<!--HR Line-->
+				<View width="Ti.UI.FILL" height="1" backgroundColor="#c7c7c7" />
+				<View layout="horizontal" width="Ti.UI.FILL" height="44" top="0">
+					<Label id="cancelButton" class="cancelButtonEnabled" onClick="cancel" />
+					<View id="buttonsDivider" height="44" width="2%" layout="vertical">
+						<View height="44" width="1" backgroundColor="#c7c7c7" />
+					</View>
+					<Label id="submitButton" class="submitButtonDisabled" autoStyle="true" onClick="submit" />
+				</View>
+		</View>
+	</View></Window>
+</Alloy>

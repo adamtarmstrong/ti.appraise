@@ -1,0 +1,160 @@
+"Window": {
+	backgroundColor: "#B3000000"
+},
+"Window[platform=android]": {
+	theme: 'Theme.AppCompat.NoTitleBar'
+},
+"Label": {
+	font: { fontSize: 14 }
+},
+"AlertDialog[platform=android]": {
+	canceledOnTouchOutside: false
+},
+"#rateDialog[platform=ios]": {
+	backgroundColor: "#e4e4e4",
+	borderColor: "#e4e4e4",
+	borderRadius: 20,
+	borderWidth: 1,
+	layout: "vertical",
+	top: 60,
+	width: 272,
+	height: Ti.UI.SIZE
+},
+"#rateDialog[platform=android]": {
+	backgroundColor: "#e4e4e4",
+	elevation: 5,
+	layout: "vertical",
+	top: 60,
+	width: 272,
+	height: Ti.UI.SIZE
+},
+"#title": {
+	font: { fontSize: 18, fontWeight: 'bold' },
+	color: "#0b0b0b",
+	height: 22,
+	top: 14
+},
+"#subtitle": {
+	font: { fontSize: 16 },
+	color: "#2d2d2d",
+	height: 47,
+	top: 5,
+	bottom: 8,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".subtitleRating": {
+	text: "Tap a star to rate it on the\nApp Store."
+},
+".subtitleFeedback": {
+	text: "Your feedback is important to us"
+},
+".cancelButtonEnabled": {
+	color: "#0a60ff",
+	font: { fontSize: 16 },
+	text: "Cancel",
+	height: 44,
+	width: "49%",
+	top: 0,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+/*".cancelButtonDisabled": {
+	color: "#c7c7c7",
+	font: { fontSize: 16 },
+	text: "Cancel",
+	height: 44,
+	width: "49%",
+	top: 0,
+	touchEnabled: false,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},*/
+".appiconVisible": {
+	height: 62,
+	width: 62,
+	top: 20,
+	bottom: 0
+},
+".appiconHidden": {
+	height: 0,
+	width: 0,
+	top: 0,
+	bottom: 0
+},
+".starViewVisible": {
+	width: Ti.UI.FILL,
+	height: 45,
+	layout: "vertical"
+},
+".starViewHidden": {
+	width: Ti.UI.FILL,
+	height: 0,
+	layout: "vertical"
+}
+".feedbackViewVisible": {
+	width: Ti.UI.FILL,
+	height: 82,
+	layout: "vertical"
+},
+".feedbackViewHidden": {
+	width: Ti.UI.FILL,
+	height: 0,
+	layout: "vertical"
+},
+".feedbackHelpTextVisible": {
+	color: "#b7b7b7",
+	font: { fontSize: 12 },
+	width: Ti.UI.FILL,
+	height: 24,
+	top: 5,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".feedbackHelpTextHidden": {
+	color: "#b7b7b7",
+	font: { fontSize: 12 },
+	width: Ti.UI.FILL,
+	height: 0,
+	top: 0,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".submitButtonEnabled": {
+	color: "#0a60ff",
+	font: { fontSize: 16, fontWeight: 'bold' },
+	text: "Submit",
+	height: 44,
+	width: Ti.UI.FILL,
+	top: 0,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".submitButtonDisabled": {
+	color: "#c7c7c7",
+	font: { fontSize: 16, fontWeight: 'bold' },
+	text: "Submit",
+	height: 44,
+	width: Ti.UI.FILL,
+	top: 0,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".unStar": {
+	font: { fontFamily: 'FontAwesome', fontSize: 24 },
+	color: "#0a60ff",
+	text: '\uf006',
+	height: 44,
+	width: '14%',
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".selectedStar": {
+	font: { fontFamily: 'FontAwesome', fontSize: 24 },
+	color: "#0a60ff",
+	text: '\uf005',
+	height: 44,
+	width: '14%',
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}

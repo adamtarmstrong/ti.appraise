@@ -1,0 +1,13 @@
+{
+	"id": "ti.appraise",
+	"name": "ti.appraise",
+	"description" : "Titanium App Review and Feedback Widegt",
+	"author": "Adam Armstrong, implicitli, LLC",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2017",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}
